@@ -37,6 +37,7 @@
 import axios from "axios";
 import useValidate from "@vuelidate/core";
 import { required,  minLength } from "@vuelidate/validators";
+console.log();
 export default {
     name: 'modifier',
     data() {
@@ -46,9 +47,11 @@ export default {
                 "prenom": "",
             }
             ], 
+            id: this.$route.params.id,
             v$: useValidate(),
             nom: "",
             prenom: "",
+            
         };
     },
     validattion() {

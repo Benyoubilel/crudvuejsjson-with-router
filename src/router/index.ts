@@ -19,7 +19,7 @@ const router = createRouter({
       component:HomeView
     },
     {
-      path: '/modifier',
+      path: '/modifier/:id',
       name: 'modifier',
   
       // route level code-splitting

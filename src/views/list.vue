@@ -83,7 +83,7 @@ export default {
             id: "",
             nom: "",
             prenom: "",
-            route:"/modifier?"
+            route:"/modifier/"
         };
     },
     validattion() {
