@@ -23,9 +23,12 @@ npm install
 ```sh
 npm install -g json-server
 ```
-5)install vuelidate
+5)install vuelidate and axios
 ```sh
 npm install @vuelidate/core @vuelidate/validators
+```
+```sh
+npm install axios
 ```
 6) Create a db.json file with some data
 7)
@@ -36,13 +39,13 @@ npm install @vuelidate/core @vuelidate/validators
        "id": "1"    
       "nom": "x",
       "prenom": "xy",
-      "email": "x@gmail.com"
+    
     }
     {
       "id": "2"    
       "nom": "z",
       "prenom": "xy",
-      "email": "z@gmail.com"
+  
     }
   ]
 }

@@ -75,6 +75,7 @@ export default {
         async getusr() {
             let res = await axios.get('http://localhost:3000/user/' + this.id);
             this.user = res.data;
+           
         },
 
 
